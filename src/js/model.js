@@ -95,5 +95,6 @@ export const saveBookmarksToLocalStorage = function () {
 
 export const importDataFromLocalStorage = function () {
   const data = JSON.parse(localStorage.getItem("bookmark"));
-  state.bookmakrs = data;
+  if (!data) return;
+  state.bookmarks = data;
 };

@@ -1,4 +1,3 @@
-import icons from "../../img/icons.svg";
 import View from "./view.js";
 
 class bookmarkView extends View {

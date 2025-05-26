@@ -1,0 +1,20 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Vladimir Dikovski",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.2",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.89.0"
+  },
+  "dependencies": {
+    "core-js": "^3.42.0"
+  }
+}
